@@ -1,11 +1,15 @@
-import React from "react";
+import React, { Component } from "react";
+import PortfolioItem from "../../components/PortfolioItem"
 
-function Portfolio() {
-  return (
-    <div>
-      <h1>This is the portfolio page</h1>
-    </div>
-  );
+class Portfolio extends Component {
+    render() {
+      return (
+        <div>
+          <h1>This is the portfolio page</h1>
+          <PortfolioItem />
+        </div>
+      );
+    }
 }
 
 export default Portfolio;
