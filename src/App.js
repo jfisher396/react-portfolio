@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import AboutMe from "./pages/AboutMe/AboutMe"
 
 function App() {
   return (
-    <h1>this is a page</h1>
+    <AboutMe />
   );
 }
 
