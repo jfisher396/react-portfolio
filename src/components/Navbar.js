@@ -5,7 +5,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a className="navbar-brand" href="#">James Fisher</a>
+                <a className="navbar-brand" link="#">James Fisher</a>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item active">

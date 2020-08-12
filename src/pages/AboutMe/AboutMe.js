@@ -4,7 +4,7 @@ import Navbar from "../../components/Navbar"
 function AboutMe() {
     return (
         <div>
-            <Navbar />
+            <h1>This is the about me page</h1>
         </div>
     )
 }
