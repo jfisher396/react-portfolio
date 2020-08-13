@@ -1,4 +1,4 @@
-/* body {
+body {
     background-image: url("./media/black-and-blue.jpg");
     background-color: lightslategray;
 
@@ -20,7 +20,7 @@
     margin-top: 20px;
 }
 
-#portTitle {
+.portTitle {
 
     color: whitesmoke;
 }
@@ -37,4 +37,4 @@
 
 .link:visited {
     color: black;
-} */
+}

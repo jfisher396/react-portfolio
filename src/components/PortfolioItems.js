@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
+import winekeydesktop from "../media/winekeydesktop.jpg";
 
-export default class PortfolioItem extends Component {
+export default class PortfolioItems extends Component {
     render() {
         return (
           <div className="container">
             <div className="col-md-6">
               <div className="card h-100">
                 <img
-                  src="./media/winekeydesktop.jpg"
+                  src={winekeydesktop}
                   className="img img-thumbnail"
                   alt="screenshot of Wine Key"
                 />
@@ -21,7 +22,7 @@ export default class PortfolioItem extends Component {
                     may exist elsewhere within the company.
                   </p>
                   <a
-                    href="https://fv-winekey.herokuapp.com/auth/login"
+                    href="https://fv-winekey.herokuapp.com/auth/login" target="_blank"
                     className="btn btn-dark mx-auto"
                   >Visit Wine Key</a>
                 </div>

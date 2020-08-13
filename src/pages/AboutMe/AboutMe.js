@@ -21,7 +21,7 @@ function AboutMe() {
                   project-management. Recently earned a certificate in
                   Full-Stack Web Development from University of Washington
                   School of Science and Engineering with skills in HTML, CSS,
-                  Bootstrap and JavaScript as well as Node, MySQL and React.
+                  JavaScript as well as Node, MySQL, Mongo and React.
                   During an extensive career in event technology I learned to
                   deal with high client-expectations, high-pressure situations
                   and deadlines and all while being both self-reliant and a
@@ -30,9 +30,7 @@ function AboutMe() {
                   improve and maintain current sites and domains.
                 </p>
                 <Link to="/contact">
-                    <button type="button" className="btn btn-dark">
-                        <p>Contact James</p>
-                    </button>
+                    <button type="button" className="btn btn-dark">Contact James</button>
                 </Link>
               </div>
             </div>
