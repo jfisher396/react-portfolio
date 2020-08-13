@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
-import winekeydesktop from "../media/winekeydesktop.jpg";
+import winekeydesktop from "../../media/winekeydesktop.jpg";
 
-export default class PortfolioItems extends Component {
+export default class WineKey extends Component {
     render() {
         return (
-          <div className="container">
-            <div className="col-md-6">
               <div className="card h-100">
                 <img
                   src={winekeydesktop}
@@ -27,8 +25,6 @@ export default class PortfolioItems extends Component {
                   >Visit Wine Key</a>
                 </div>
               </div>
-            </div>
-          </div>
         );
     }
 }
