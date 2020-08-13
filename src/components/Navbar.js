@@ -14,7 +14,8 @@ class Navbar extends Component {
             
               <Link to="/portfolio">Portfolio</Link>
             
-            <Link to="/contact">Contact</Link>
+              <Link to="/contact">Contact</Link>
+              
           </nav>
         );
     }
