@@ -1,23 +1,27 @@
 import React, { Component } from 'react'
+import { Nav, Navbar, NavItem } from 'react-bootstrap' 
 import { Link } from 'react-router-dom'
 
-class Navbar extends Component {
-    render() {
-        return (
-          <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div className="navbar-brand">
-              <Link to="/">James Fisher</Link>
-            </div>
-            
-              <Link to="/about">About Me</Link>
-            
-              <Link to="/portfolio">Portfolio</Link>
-            
-              <Link to="/contact">Contact</Link>
-              
-          </nav>
-        );
-    }
+class NavBar extends Component {
+  render() {
+    return (
+      <Navbar bg="dark" expand="lg">
+        <div className="navbar-brand">
+          <Link to="/">James Fisher</Link>
+        </div>
+
+        
+          <Link to="/about">About Me</Link>
+        
+        
+          <Link to="/portfolio">Portfolio</Link>
+        
+       
+          <Link to="/contact">Contact</Link>
+        
+      </Navbar>
+    );
+  }
 }
 
-export default Navbar
+export default NavBar

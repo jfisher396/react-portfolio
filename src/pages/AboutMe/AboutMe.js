@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import ProfilePic from "../../media/James.jpg"
+import {Button} from 'react-bootstrap'
 
 function AboutMe() {
     return (
@@ -30,7 +31,7 @@ function AboutMe() {
                   improve and maintain current sites and domains.
                 </p>
                 <Link to="/contact">
-                    <button type="button" className="btn btn-dark">Contact James</button>
+                    <Button variant="dark">Contact James</Button>
                 </Link>
               </div>
             </div>
