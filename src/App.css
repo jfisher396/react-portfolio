@@ -38,3 +38,7 @@ body {
 .link:visited {
     color: black;
 }
+
+Nav.Link {
+    color: red;
+}

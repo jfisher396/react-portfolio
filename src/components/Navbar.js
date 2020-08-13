@@ -7,17 +7,17 @@ class NavBar extends Component {
     return (
 
       <Navbar bg="light" expand="lg">
-        <Navbar.Brand><Link to="/">James Fisher</Link></Navbar.Brand>
+        <Navbar.Brand><Link to="/" className="link">James Fisher</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link><Link to="/about">About Me</Link></Nav.Link>
-            <Nav.Link><Link to="/portfolio">Portfolio</Link></Nav.Link>
-            <Nav.Link><Link to="/contact">Contact</Link></Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1"><Link to="/about">About Me</Link></NavDropdown.Item>
-              <NavDropdown.Item><Link to="/portfolio">Portfolio</Link></NavDropdown.Item>
-              <NavDropdown.Item><Link to="/contact">Contact</Link></NavDropdown.Item>
+            <Nav.Link><Link to="/about" className="link">About Me</Link></Nav.Link>
+            <Nav.Link><Link to="/portfolio" className="link">Portfolio</Link></Nav.Link>
+            <Nav.Link><Link to="/contact" className="link">Contact</Link></Nav.Link>
+            <NavDropdown title="Dropdown" id="basic-nav-dropdown" className="link">
+              <NavDropdown.Item><Link to="/about" className="link">About Me</Link></NavDropdown.Item>
+              <NavDropdown.Item><Link to="/portfolio" className="link">Portfolio</Link></NavDropdown.Item>
+              <NavDropdown.Item><Link to="/contact" className="link">Contact</Link></NavDropdown.Item>
             </NavDropdown>
           </Nav>
         
