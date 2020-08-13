@@ -4,6 +4,8 @@ import WineKey from "../../components/PortfolioItems/WineKey"
 import Covidosity from "../../components/PortfolioItems/Covidosity"
 import WeatherDashboard from "../../components/PortfolioItems/WeatherDashboard"
 import WorkdayScheduler from "../../components/PortfolioItems/WorkdayScheduler"
+import EmployeeDirectory from "../../components/PortfolioItems/EmployeeDirectory"
+import BudgetTracker from "../../components/PortfolioItems/BudgetTracker";
 
 class Portfolio extends Component {
     render() {
@@ -16,6 +18,12 @@ class Portfolio extends Component {
             </div>
             <div className="col-md-6">
               <Covidosity />
+            </div>
+            <div className="col-md-6 mt-5">
+              <EmployeeDirectory />
+            </div>
+            <div className="col-md-6 mt-5">
+              <BudgetTracker />
             </div>
             <div className="col-md-6 mt-5">
               <WeatherDashboard />

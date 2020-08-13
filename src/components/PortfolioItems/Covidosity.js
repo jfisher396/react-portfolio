@@ -20,6 +20,7 @@ export default class Covidosity extends Component {
           <a
             href="https://maria-helbling.github.io/travel-risk-2020/"
             target="_blank"
+            rel="noopener noreferrer"
             className="btn btn-dark mx-auto"
           >
             Visit Covidosity

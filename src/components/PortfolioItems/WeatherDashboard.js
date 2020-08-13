@@ -13,11 +13,12 @@ export default class WeatherDashboard extends Component {
         <div className="card-body">
           <h4 className="card-title">Weather Dashboard</h4>
           <p className="card-text port-card">
-            A portal for checking the current weather of a city, as well as the 5-day forecast.
+            A portal for checking the current weather of a city, as well as the 5-day forecast. Built using a Bulma CSS Framework, Moment.js and the openweathermap API.
           </p>
           <a
             href="https://jfisher396.github.io/weather-dashboard/"
             target="_blank"
+            rel="noopener noreferrer"
             className="btn btn-dark mx-auto"
           >
             View Weather Dashboard

@@ -21,6 +21,7 @@ export default class WineKey extends Component {
                   </p>
                   <a
                     href="https://fv-winekey.herokuapp.com/auth/login" target="_blank"
+                rel="noopener noreferrer"
                     className="btn btn-dark mx-auto"
                   >Visit Wine Key</a>
                 </div>
