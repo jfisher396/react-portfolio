@@ -13,10 +13,10 @@ class Portfolio extends Component {
         <div className="container">
           <h1 className="portTitle">Portfolio</h1>
           <div className="row">
-            <div className="col-md-6 mt-5">
+            <div className="col-md-6 mt-2">
               <WineKey />
             </div>
-            <div className="col-md-6 mt-5">
+            <div className="col-md-6 mt-2">
               <Covidosity />
             </div>
             <div className="col-md-6 mt-5">

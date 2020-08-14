@@ -1,28 +1,40 @@
 body {
     background-image: url("./media/black-and-blue.jpg");
+    background-attachment: fixed;
     background-color: lightslategray;
 
 }
 
+.siteTitle {
+     /* text-shadow: 1px 1px; */
+     font-weight: bold;
+     font-family: 'Dosis', sans-serif;
+     font-size: 25px;
+}
+.navLinks {
+    font-family: 'Dosis', sans-serif;
+}
 #about-me {
     
     font-weight: 500;
 }
-
-.card {
-
-    background-color: #3FB8FD;
-    margin: 10px 10px 10px;
+.aboutMeCard {
+    font-family: 'Dosis', sans-serif;
+    margin-top: 60px;
 }
-
-#contactme {
-
-    margin-top: 20px;
+.card {
+    font-family: 'Dosis', sans-serif;
+    background-color: #3FB8FD;
+    margin: 10px 10px 0px;
+}
+.contactCard {
+    margin-top: 70px;
 }
 
 .portTitle {
-
+    font-family: 'Dosis', sans-serif;
     color: whitesmoke;
+    margin-top: 70px;
 }
 
 .port-card {
@@ -37,4 +49,17 @@ body {
 
 .link:visited {
     color: black;
+}
+
+.footer {
+    text-align: center;
+    padding: 3px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    background-color: whitesmoke;
+}
+
+.footerText {
+    margin: 4px;
 }

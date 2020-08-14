@@ -6,7 +6,7 @@ import "./AboutMe.css"
 
 function AboutMe() {
     return (
-      <div className="container">
+      <div className="container aboutMeCard">
         <div className="row">
           <div className="col-md-12">
             <div className="card">
@@ -36,7 +36,7 @@ function AboutMe() {
                   </p>
                 </div>
                 <Link to="/contact">
-                  <Button variant="dark">Contact James</Button>
+                  <Button variant="dark" className="mt-3">Contact James</Button>
                 </Link>
               </div>
             </div>

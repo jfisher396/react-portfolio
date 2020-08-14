@@ -6,8 +6,8 @@ class NavBar extends Component {
   render() {
     return (
 
-      <Navbar bg="light" expand="lg">
-        <Navbar.Brand><Link to="/" className="link">James Fisher</Link></Navbar.Brand>
+      <Navbar bg="light" expand="lg" className="fixed-top mt-80 navLinks">
+        <Navbar.Brand><Link to="/" className="link siteTitle">James Fisher</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">

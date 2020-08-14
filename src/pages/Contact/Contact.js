@@ -6,7 +6,7 @@ export default function Contact() {
     <div className="container">
       <div className="row">
         <div className="col-md-4">
-          <div className="card">
+          <div className="card contactCard">
             <img
               src={ProfilePic}
               className="card-img-top"

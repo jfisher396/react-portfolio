@@ -5,6 +5,7 @@ import NavBar from "./components/Navbar"
 import AboutMe from "./pages/AboutMe/AboutMe"
 import Portfolio from './pages/Portfolio/Portfolio';
 import Contact from './pages/Contact/Contact';
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <AboutMe />
           </Route>
         </Switch>
+        <Footer />
       </Router>
     
   );
