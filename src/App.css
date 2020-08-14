@@ -20,7 +20,8 @@ body {
 }
 .aboutMeCard {
     font-family: 'Dosis', sans-serif;
-    margin-top: 60px;
+    margin-top: 150px;
+    margin-bottom: 35px;
 }
 .card {
     font-family: 'Dosis', sans-serif;
@@ -28,20 +29,24 @@ body {
     margin: 10px 10px 0px;
 }
 .contactCard {
-    margin-top: 70px;
+    margin-top: 200px;
 }
 
 .portTitle {
     font-family: 'Dosis', sans-serif;
     color: whitesmoke;
-    margin-top: 70px;
+    margin-top: 130px;
 }
 
 .port-card {
 
     font-weight: 600;
+    
 }
 
+.lastCard {
+    margin-bottom: 50px;
+}
 
 .link {
     color: black;
@@ -54,6 +59,7 @@ body {
 .footer {
     text-align: center;
     padding: 3px;
+    margin-top: 0;
     margin-right: 0;
     margin-left: 0;
     margin-bottom: 0;

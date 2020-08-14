@@ -4,7 +4,7 @@ import workdaySchedulerPic from "../../media/Workday Scheduler.png";
 export default class WorkdayScheduler extends Component {
   render() {
     return (
-      <div className="card h-100">
+      <div className="card h-100 lastCard">
         <img
           src={workdaySchedulerPic}
           className="img img-thumbnail"

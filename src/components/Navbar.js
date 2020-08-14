@@ -14,11 +14,7 @@ class NavBar extends Component {
             <Nav.Link><Link to="/about" className="link">About Me</Link></Nav.Link>
             <Nav.Link><Link to="/portfolio" className="link">Portfolio</Link></Nav.Link>
             <Nav.Link><Link to="/contact" className="link">Contact</Link></Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown" className="link">
-              <NavDropdown.Item><Link to="/about" className="link">About Me</Link></NavDropdown.Item>
-              <NavDropdown.Item><Link to="/portfolio" className="link">Portfolio</Link></NavDropdown.Item>
-              <NavDropdown.Item><Link to="/contact" className="link">Contact</Link></NavDropdown.Item>
-            </NavDropdown>
+            
           </Nav>
         
         </Navbar.Collapse>

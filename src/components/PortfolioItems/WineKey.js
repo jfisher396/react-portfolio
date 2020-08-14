@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import winekeydesktop from "../../media/winekeydesktop.jpg";
+import winekeygif from "../../media/Wine Key animation.gif";
 
 export default class WineKey extends Component {
     render() {
         return (
           <div className="card h-100">
             <img
-              src={winekeydesktop}
+              src={winekeygif}
               className="img img-thumbnail"
               alt="screenshot of Wine Key"
             />
