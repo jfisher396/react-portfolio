@@ -6,6 +6,7 @@ import WeatherDashboard from "../../components/PortfolioItems/WeatherDashboard"
 import WorkdayScheduler from "../../components/PortfolioItems/WorkdayScheduler"
 import EmployeeDirectory from "../../components/PortfolioItems/EmployeeDirectory"
 import BudgetTracker from "../../components/PortfolioItems/BudgetTracker";
+import GoogleBooks from "../../components/PortfolioItems/GoogleBooks"
 
 class Portfolio extends Component {
     render() {
@@ -18,6 +19,9 @@ class Portfolio extends Component {
             </div>
             <div className="col-md-6 mt-2">
               <Covidosity />
+            </div>
+            <div className="col-md-6 mt-5">
+              <GoogleBooks />
             </div>
             <div className="col-md-6 mt-5">
               <EmployeeDirectory />

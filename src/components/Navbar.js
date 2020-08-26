@@ -20,22 +20,6 @@ class NavBar extends Component {
         </Navbar.Collapse>
       </Navbar>
 
-
-      // <Navbar bg="dark" expand="lg">
-      //   <div className="navbar-brand">
-      //     <Link to="/">James Fisher</Link>
-      //   </div>
-
-        
-      //     <Link to="/about">About Me</Link>
-        
-        
-      //     <Link to="/portfolio">Portfolio</Link>
-        
-       
-      //     <Link to="/contact">Contact</Link>
-        
-      // </Navbar>
     );
   }
 }
