@@ -1,26 +1,26 @@
 import React, { Component } from "react";
-import googleBooksPic from "../../media/googlebooks.png";
+import meetingNeedsPic from "../../media/meetingneeds animated.gif";
 
-export default class GoogleBooks extends Component {
+export default class MeetingNeeds extends Component {
     render() {
         return (
             <div className="card h-100">
                 <img
-                    src={googleBooksPic}
+                    src={meetingNeedsPic}
                     className="img img-thumbnail"
                     alt="screenshot of google books"
                 />
                 <div className="card-body">
-                    <h4 className="card-title">Google Books Search</h4>
+                    <h4 className="card-title">Meeting Your (AV) Needs</h4>
                     <p className="card-text port-card">
-                        A portal for searching and saving books found in Google Books. Built using React.js, Bootstrap and the Google Books API.</p>
+                        A mobile-first portal for quickly ordering audiovisual items for your meeting. Built using React.js, MongoDB, Nodemailer and Animate.css.</p>
                     <a
-                        href="https://serene-plains-62944.herokuapp.com/"
+                        href="https://james-fisher-project-3.herokuapp.com/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-dark mx-auto"
                     >
-                        Visit Google Books Search
+                        Visit Meeting Your (AV) Needs
           </a>
                 </div>
             </div>

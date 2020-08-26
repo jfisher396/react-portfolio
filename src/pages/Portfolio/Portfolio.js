@@ -5,8 +5,9 @@ import Covidosity from "../../components/PortfolioItems/Covidosity"
 import WeatherDashboard from "../../components/PortfolioItems/WeatherDashboard"
 import WorkdayScheduler from "../../components/PortfolioItems/WorkdayScheduler"
 import EmployeeDirectory from "../../components/PortfolioItems/EmployeeDirectory"
-import BudgetTracker from "../../components/PortfolioItems/BudgetTracker";
+import BudgetTracker from "../../components/PortfolioItems/BudgetTracker"
 import GoogleBooks from "../../components/PortfolioItems/GoogleBooks"
+import MeetingNeeds from "../../components/PortfolioItems/MeetingNeeds"
 
 class Portfolio extends Component {
     render() {
@@ -14,10 +15,13 @@ class Portfolio extends Component {
         <div className="container">
           <h1 className="portTitle">Portfolio</h1>
           <div className="row">
-            <div className="col-md-6 mt-2">
+            <div className="col-md-6 mt-5">
+              <MeetingNeeds />
+            </div>
+            <div className="col-md-6 mt-5">
               <WineKey />
             </div>
-            <div className="col-md-6 mt-2">
+            <div className="col-md-6 mt-5">
               <Covidosity />
             </div>
             <div className="col-md-6 mt-5">
