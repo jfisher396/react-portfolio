@@ -15,15 +15,23 @@ export default class Covidosity extends Component {
           <p className="card-text port-card">
             This is a site showing a quick overview of current COVID-19
             conditions in potential travel destinations, condensed into 4 key
-            numbers based on population.
+            numbers based on population. This was a group project.
           </p>
           <a
             href="https://maria-helbling.github.io/travel-risk-2020/"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-dark mx-auto"
+            className="btn btn-dark mx-auto portBtn"
           >
-            Visit Covidosity
+            Visit Site
+          </a>
+          <a
+            href="https://github.com/maria-helbling/travel-risk-2020"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-light mx-auto portBtn"
+          >
+            Visit Repo
           </a>
         </div>
       </div>

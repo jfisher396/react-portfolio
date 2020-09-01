@@ -15,15 +15,24 @@ export default class WorkdayScheduler extends Component {
           <p className="card-text port-card">
             A single-day planner that saves text inputs and color codes by the
             hour depending on if the planner event is in the past, present or
-            future as indicated by the colors: grey, red and green. Built using Bootstrap, jQuery and Moment.js.
+            future as indicated by the colors: grey, red and green. Built using
+            Bootstrap, jQuery and Moment.js.
           </p>
           <a
             href="https://jfisher396.github.io/workday-scheduler/"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-dark mx-auto"
+            className="btn btn-dark mx-auto portBtn"
           >
-            View Workday Scheduler
+            View App
+          </a>
+          <a
+            href="https://jfisher396.github.io/workday-scheduler/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-light mx-auto portBtn"
+          >
+            View Repo
           </a>
         </div>
       </div>

@@ -1,71 +1,71 @@
 body {
-    background-image: url("./media/black-and-blue.jpg");
-    background-attachment: fixed;
-    background-color: lightslategray;
-
+  background-image: url("./media/black-and-blue.jpg");
+  background-attachment: fixed;
+  background-color: lightslategray;
 }
 
 .siteTitle {
-     /* text-shadow: 1px 1px; */
-     font-weight: bold;
-     font-family: 'Dosis', sans-serif;
-     font-size: 25px;
+  /* text-shadow: 1px 1px; */
+  font-weight: bold;
+  font-family: "Dosis", sans-serif;
+  font-size: 25px;
 }
 .navLinks {
-    font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 #about-me {
-    
-    font-weight: 500;
+  font-weight: 500;
 }
 .aboutMeCard {
-    font-family: 'Dosis', sans-serif;
-    margin-top: 150px;
-    margin-bottom: 35px;
+  font-family: "Dosis", sans-serif;
+  margin-top: 150px;
+  margin-bottom: 35px;
 }
 .card {
-    font-family: 'Dosis', sans-serif;
-    background-color: #3FB8FD;
-    margin: 10px 10px 0px;
+  font-family: "Dosis", sans-serif;
+  background-color: #3fb8fd;
+  margin: 10px 10px 0px;
 }
 .contactCard {
-    margin-top: 200px;
+  margin-top: 200px;
 }
 
 .portTitle {
-    font-family: 'Dosis', sans-serif;
-    color: whitesmoke;
-    margin-top: 130px;
+  font-family: "Dosis", sans-serif;
+  color: whitesmoke;
+  margin-top: 130px;
 }
 
 .port-card {
-
-    font-weight: 600;
-    
+  font-weight: 600;
 }
 
 .lastCard {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.portBtn {
+  width: 50%;
 }
 
 .link {
-    color: black;
+  color: black;
 }
 
 .link:visited {
-    color: black;
+  color: black;
 }
 
 .footer {
-    text-align: center;
-    padding: 3px;
-    margin-top: 0;
-    margin-right: 0;
-    margin-left: 0;
-    margin-bottom: 0;
-    background-color: whitesmoke;
+  text-align: center;
+  padding: 3px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  background-color: whitesmoke;
 }
 
 .footerText {
-    margin: 4px;
+  margin: 4px;
 }
