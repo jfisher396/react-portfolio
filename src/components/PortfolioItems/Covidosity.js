@@ -31,7 +31,7 @@ export default class Covidosity extends Component {
             rel="noopener noreferrer"
             className="btn btn-light mx-auto portBtn"
           >
-            Visit Repo
+            View Repo
           </a>
         </div>
       </div>

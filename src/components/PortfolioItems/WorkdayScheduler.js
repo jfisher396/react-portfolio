@@ -27,7 +27,7 @@ export default class WorkdayScheduler extends Component {
             View App
           </a>
           <a
-            href="https://jfisher396.github.io/workday-scheduler/"
+            href="https://github.com/jfisher396/workday-scheduler"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-light mx-auto portBtn"

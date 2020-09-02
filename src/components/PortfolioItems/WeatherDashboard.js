@@ -26,7 +26,7 @@ export default class WeatherDashboard extends Component {
             View App
           </a>
           <a
-            href="https://jfisher396.github.io/weather-dashboard/"
+            href="https://github.com/jfisher396/weather-dashboard"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-light mx-auto portBtn"
