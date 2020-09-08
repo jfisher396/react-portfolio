@@ -24,7 +24,7 @@ export default class BudgetTracker extends Component {
             View App
           </a>
           <a
-            href="https://glacial-inlet-81056.herokuapp.com/"
+            href="https://github.com/jfisher396/budget-tracker"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-light mx-auto portBtn"
